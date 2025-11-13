@@ -1,0 +1,35 @@
+Características implementadas:
+Nuevo botón de control remoto (ícono de pantalla) en cada fila de la tabla
+
+Modal de control remoto con:
+
+Selección de protocolo (RDP, SSH, VNC, TeamViewer, AnyDesk, Web)
+
+Información de conexión detallada
+
+Campo para puerto personalizado
+
+Comando/URL generado automáticamente
+
+Botones para copiar comando y abrir conexión
+
+Funcionalidades del modal:
+
+Cambio dinámico de información según el protocolo seleccionado
+
+Generación automática de comandos de conexión
+
+Copiado al portapapeles
+
+Apertura directa para protocolos web
+
+Instrucciones de uso:
+Haz clic en el botón de control remoto (ícono de pantalla) en cualquier equipo
+
+Selecciona el protocolo deseado en el panel izquierdo
+
+Si es necesario, especifica un puerto personalizado
+
+Copia el comando o haz clic en "Abrir conexión"
+
+El sistema es extensible y puedes agregar más protocolos fácilmente modificando el objeto protocolos en la función actualizarInfoProtocolo.
